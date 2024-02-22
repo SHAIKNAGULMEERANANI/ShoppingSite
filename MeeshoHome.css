@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+#discover{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: fit-content; */
+}
+
+#homePage{
+    padding: 15px;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MainInput{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 10px;
+}
+
+.MainInput input{
+    border: none;
+    width: 70vw;
+    background-color: whitesmoke;
+
+    /* &:hover{
+        text-decoration: none;
+        border: none;
+    } */
+}
+
+#Section1{
+    padding: 15px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.Buttuns{
+    background-color: whitesmoke;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+#Section2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#Tshirt{
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    &:hover{
+        border: 1px solid rgba(128, 128, 128, 0.663);
+        border-radius: 10px;
+
+    }
+}
+
+#Tshirt img{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ProductPrice{
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.744);
+    margin: 0px;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.ProductName{
+    font-size: 15px;
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+#Footer{
+    background-color: white;
+    width: 90vw;
+    display: flex;
+    padding: 25px 8px;
+    justify-content: space-around;
+    bottom: 0;
+    border-top: 1px solid gray;
+    position: fixed;
+   
+
+}
+.Home{
+    color: rgba(128, 128, 128, 0.818);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+
+
+    &:hover {
+        color: black;
+    }
+}
+
